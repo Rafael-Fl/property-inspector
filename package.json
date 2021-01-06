@@ -1,0 +1,14 @@
+{
+  "name": "property-inspector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "property-inspector.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RF",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
