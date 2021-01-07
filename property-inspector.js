@@ -1,13 +1,8 @@
 const axios = require("axios");
 const URL = 'https://rentalscape-sidekick.dev.deckard.technology/membrane/stroracle/ca-riverside-city_of_la_quinta/listings/str';
-<<<<<<< Updated upstream
 
 const AUTHTOKEN = ''; // Access Token
 const IDTOKEN = ''; // Id Token must start with `Bearer `. For example 'Bearer 13234 ...'
-=======
-const AUTHTOKEN = 'eyJraWQiOiI4bGNrVHlUTlZTMHR6NnFjM09kQ0ZSb3M1WjNkekN2Y1wvblFjbUtpeVlIZz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI4MjNjMWE0YS05ZDYyLTRjNGQtYTc2My03MTMxN2ZlZmI4YjgiLCJldmVudF9pZCI6IjU2MzIzMGQ2LTM4OGItNDkwZi05MjlmLTE2ZDIyNGRmYTc5YSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2MDk4OTEwOTEsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy13ZXN0LTIuYW1hem9uYXdzLmNvbVwvdXMtd2VzdC0yX3VQYnAwdTIxcSIsImV4cCI6MTYxMDA1MTExNSwiaWF0IjoxNjEwMDQ3NTE1LCJqdGkiOiIwZjI4OGFjMy02YWViLTQ2MDMtODJlOS01OWUwY2JkNzg5MTQiLCJjbGllbnRfaWQiOiIzNTJxZWNzamY2OHJsMjhvcHA3aWYyZDZqNSIsInVzZXJuYW1lIjoicmFmYWVsLmZsb3Jlc0BkZWNrYXJkLmNvbSJ9.BdlatsEwqGt-m28Rl-9KIWihDres2KkhLz-lapqVMpUQ55SoHDNc9CpQVEpapKocgvDo71HPbmcC3Y3LsxL_6pVRlXNi0klalScQg03PL09gBmMNiitKUKLKS51o61NkrwuoNc81UdtgYOeCrEvXQNhdDFV7NPVIMZPzINHO3GjlKOggcyjoSPcclherrcsJGrv9HKXQbMjWV61c0pgL5RuvPMwMSaILGNLYQYtrn6iTCc5R4EbS8vfpc2d8XvP8ij3UxW3VMolOdWaKA3ErRSzGyROtC7PXQP89oUMOuyHgUU0VQ4e-7IVDrXegWiYJl7T6vzc4kZX6QjthRZSc2g';
-const IDTOKEN = 'Bearer eyJraWQiOiJOY1laRm5YUE1KMUhWcTlGNW1FM3B0d09DRVA5a1dIUWZTOUJOUEJib0NZPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI4MjNjMWE0YS05ZDYyLTRjNGQtYTc2My03MTMxN2ZlZmI4YjgiLCJhdWQiOiIzNTJxZWNzamY2OHJsMjhvcHA3aWYyZDZqNSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjU2MzIzMGQ2LTM4OGItNDkwZi05MjlmLTE2ZDIyNGRmYTc5YSIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjA5ODkxMDkxLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtd2VzdC0yLmFtYXpvbmF3cy5jb21cL3VzLXdlc3QtMl91UGJwMHUyMXEiLCJjb2duaXRvOnVzZXJuYW1lIjoicmFmYWVsLmZsb3Jlc0BkZWNrYXJkLmNvbSIsImV4cCI6MTYxMDA1MTExNSwiaWF0IjoxNjEwMDQ3NTE1LCJlbWFpbCI6InJhZmFlbC5mbG9yZXNAZGVja2FyZC5jb20ifQ.f_1wepvKBPasR_Bh9oh2-UTxRGCvUor66K569idWQzjR5oyR0Jb6HdFz10A8kD31M8inBq3K3-RTtc9YaZ-61WHIGyxJwuhjjWC-FkchkalJQD1mr32AD8B7jRxjxM8cDrurZrdqywAt0NTmsmivnPJHtzxns7cM2auKodtANxC7r4ShzprgZriz9YLJC0nDP79i36MIeZmZwW2HKRazhxH58RZyd70X-qlUwULjlgUzZsxXrIPPOHczLKVaNqQHnNciVXVU47lliKdUOiT0_fMAbjMFaWs9geHUvmrHoMdNWbOiinL_fE3vh4rbomVIpSZxKd3-4JttIvAFLwstDw';
->>>>>>> Stashed changes
 
 /**
  * For each Listing this funtion counts the following:
@@ -213,7 +208,4 @@ axios.all([
 }).catch((err) => {
     console.log('err', err.message);
 });
-<<<<<<< Updated upstream
-=======
 }
->>>>>>> Stashed changes
